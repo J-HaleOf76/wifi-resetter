@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+clear
+
+driver=0000:25:00.0    #this is the one that you need to change , just paste the correct filename from /sys/bus/pci/devices
+
+echo "Would you like to reset your adapter?"
+
+read ans
+
+if [ $ans == y ] || [ $ans == yes ] || [ $ans == YES ] || [ $ans == Y ];   
+then
+    sudo echo "1" > /sys/bus/pci/devices/$driver/remove
+    echo "Resetting adapter..."
+    sleep 3
+    echo "Rescanning devices..."
+    sudo echo "1" > /sys/bus/pci/rescan
+    echo "Wireless adapter successfully resetted"
+
+else 
+    echo "Unable to reset, please check pci devices using this Command"
+    echo 'lspci'
+    echo 'cd /sys/bus/pci/devices'
+    echo 'Check the index of the pci wireless driver'
+fi
