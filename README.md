@@ -1,4 +1,4 @@
-@@ WIFI-RESETTER
+# WIFI-RESETTER
 Iwlwifi wlan (Wi-fi) adapter solution as tested in Intel Centrino 6205 
 THIS IS NOT A PERMANENT SOLUTION
 
