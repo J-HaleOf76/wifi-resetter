@@ -1,7 +1,7 @@
 # Manual WLAN Refresh Script
 ## IWLWIFI Driver Solution
 
-
+#THIS DRIVER SOLUTION WILL BE UNMAINTAINED AS OF 02-20-22.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -44,3 +44,5 @@ Make executable by chmod +x wifi-resetter
 
 Run as sudo ./wifi-resetter on your terminal.
 ```
+
+
