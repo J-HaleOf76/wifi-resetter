@@ -1,7 +1,7 @@
 # Manual WLAN Refresh Script
 ## IWLWIFI Driver Solution
 
-#THIS DRIVER SOLUTION WILL BE UNMAINTAINED AS OF 02-20-22.
+THIS DRIVER SOLUTION WILL BE UNMAINTAINED AS OF 02-20-22 but should work fine as usual..
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
