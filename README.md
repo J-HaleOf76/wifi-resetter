@@ -21,8 +21,6 @@ to Access points or wifi networks unless I force reboot my machine. I tried just
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
-
 - [Bash] - Just plain bash script for easy execution
 
 
